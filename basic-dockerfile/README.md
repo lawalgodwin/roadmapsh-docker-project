@@ -78,10 +78,10 @@ Result:
     #  exec format
     CMD ["executable","param1","param2"]
 ```
-    ```dockerfile
+```dockerfile
     # shell format
     CMD command param1 param2
-    ```
+```
 - You can also define an **ENV** variable and customise it at run time using the **-e** flag when running the container.
   This way, you don't need to first define the variable as **ARG** type as used in the example above
   This is shown below:
